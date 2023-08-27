@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
-
 input {
     width: 100%;
     padding: 8px 8px;
@@ -11,7 +11,6 @@ input {
     border-radius: 5px;
     margin-bottom: 5px;
 }
-
 button {
     background: #3a90ff;
     color: white;
@@ -19,4 +18,15 @@ button {
     border-radius: 10px;
     border: none;
     font-weight: bold;
+}
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    margin-top: 5px;
+}
+li a {
+    color: #3a90ff
 }

@@ -19,7 +19,13 @@ function renderLeads(){
         //const li = document.createElement("li")
         //li.textContent = myLeads[i]
         //ulEl.append(li)
-        listItems += "<li><a target='_blank' href=' " + myLeads[i] + "'>" + myLeads[i] + "</li>"
+        listItems += 
+        `<li>
+            <a target='_blank' href='${myLeads[i]}'>
+                ${myLeads[i]}
+            </a>
+        </li>
+        `
     }
     
     ulEl.innerHTML = listItems
