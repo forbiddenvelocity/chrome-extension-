@@ -19,10 +19,19 @@ button {
     border: none;
     font-weight: bold;
 }
+button:hover{
+    background:#1c7ec4;
+    transition: 0.3s ;
+}
 #delete-btn {
     background: white;
     color: #3a90ff;
     border: 2px solid #3a90ff;
+}
+#delete-btn:hover{
+    background: #3a90ff;
+    color: white;
+    transition: 0.3s;
 }
 ul{
     margin-top: 20px;
