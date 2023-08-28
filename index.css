@@ -19,6 +19,11 @@ button {
     border: none;
     font-weight: bold;
 }
+#delete-btn {
+    background: white;
+    color: #3a90ff;
+    border: 2px solid #3a90ff;
+}
 ul{
     margin-top: 20px;
     list-style: none;
