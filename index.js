@@ -4,7 +4,7 @@ const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
 let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
-console.log(leadsFromLocalStorage)
+//console.log(leadsFromLocalStorage)
 //localStorage.clear()
 
 const deleteBtn = document.getElementById("delete-btn")
