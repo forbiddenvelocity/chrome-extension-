@@ -10,9 +10,7 @@ let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 const deleteBtn = document.getElementById("delete-btn")
 const tabBtn = document.getElementById("save-tab")
 
-const tabs = [
-    {url: "https://github.com/forbiddenvelocity"}
-]
+
 
 tabBtn.addEventListener("click", function(){
     chrome.tabs.query({active: true, currenWindow: true}, function() {
