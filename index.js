@@ -15,7 +15,15 @@ const tabs = [
 ]
 
 tabBtn.addEventListener("click", function(){
-    console.log(tabs[0])
+    chrome.tabs.query({active: true, currenWindow: true}, function() {
+        var activeTab = tabs[0];
+        var activeTabId = activeTab.id;
+    
+    });
+
+    myLeads.push(tabs[0].url)
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
+    render(myLeads)
 })
 
 if(leadsFromLocalStorage){
