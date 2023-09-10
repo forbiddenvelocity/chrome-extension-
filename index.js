@@ -8,6 +8,15 @@ let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 //localStorage.clear()
 
 const deleteBtn = document.getElementById("delete-btn")
+const tabBtn = document.getElementById("save-tab")
+
+const tabs = [
+    {url: "https://github.com/forbiddenvelocity"}
+]
+
+tabBtn.addEventListener("click", function(){
+    console.log(tabs[0])
+})
 
 if(leadsFromLocalStorage){
     myLeads = leadsFromLocalStorage
